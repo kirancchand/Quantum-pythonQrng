@@ -5,7 +5,7 @@ import json
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit, execute, IBMQ
 from qiskit.tools.monitor import job_monitor
 
-IBMQ.enable_account('7cca07ecd68c807c58ffd0f89251e86b50b8b9da289b6e8eaa5925a8842429336459f4ecc4349e937fac10af116ad81e3305ddad35022c376d419a78fc1e0818')
+# IBMQ.enable_account('7cca07ecd68c807c58ffd0f89251e86b50b8b9da289b6e8eaa5925a8842429336459f4ecc4349e937fac10af116ad81e3305ddad35022c376d419a78fc1e0818')
 provider = IBMQ.get_provider(hub='ibm-q')
 
 def home(request):
